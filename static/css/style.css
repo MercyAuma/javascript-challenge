@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(0, 0, 0);
+    background-image: url("../images/ufo_sightings_header_footer.gif");
+    background-size: cover;
+    
+}
+
+.title {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+  }
+
+
+p.title_label{
+    text-align: left;
+    color: white;
+    font-weight: bold;
+}
+
+.pad-table{
+       padding-bottom: 50px;
+       padding-left: 20px;
+       padding-right: 20px;
+       color: white;
+       overflow-y: auto;
+       height: 400px;
+}
+
+.pad-table thead th{
+    position:sticky;
+    top:0;
+}
+
+th{
+    background-color: black;
+    color: white;
+}
+
+tbody{
+    color: white;
+}
+
+hr.content-separator{
+    border: .5px solid grey;
+}
+
+header {
+    padding: 60px;
+    text-align: center;
+}
+
+.form-group{
+   background-color: rgb(14, 56, 124);
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    border-top-style: solid; 
+    border-top-color: white;
+    height: 40px;
+    font-size: 14px; 
+    padding-top: 10px; 
+    border: black;
+    color: white;
+}
+
+
+
